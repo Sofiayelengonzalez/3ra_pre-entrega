@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #B7C4CF;
+  font-family: 'Playfair Display', serif;
+  font-size: auto;
+  min-height: 100%; }
+  body header div #cambioLogo {
+    width: 400px;
+    height: auto;
+    padding-top: 10px; }
+  body main section h1 {
+    padding: 30px;
+    font-size: 45px;
+    background-color: gray;
+    background-position: bottom-center;
+    display: flex;
+    justify-content: center;
+    margin-block-end: 15px; }
+  body section h2 {
+    padding: 30px;
+    margin-top: 15px;
+    margin-block-end: 10px;
+    font-size: 25px;
+    background-color: lightslategray;
+    background-position: bottom-center;
+    display: flex;
+    justify-content: center; }
+  body section div h2 {
+    padding: 30px;
+    margin-top: 15px;
+    margin-block-end: 10px;
+    font-size: 25px;
+    background-color: lightslategray;
+    background-position: bottom-center;
+    display: flex;
+    justify-content: center; }
+  body footer {
+    background-color: #B7C4CF;
+    height: 40px;
+    padding: 40px;
+    margin-top: 15px; }
+    body footer div h3 {
+      padding: 20px;
+      font-size: 20px; }

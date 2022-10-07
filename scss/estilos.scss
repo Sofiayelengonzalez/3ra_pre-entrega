@@ -1,0 +1,198 @@
+//hojas parciales
+
+@import "utilities/_listas";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: nth($colores-principales,1);
+    font-family: 'Playfair Display', serif;
+    font-size: auto;
+    min-height: 100%;
+
+    //Espacio movil
+
+    header{
+         
+        div {
+
+           #cambioLogo{
+            width: 400px;
+            height: auto;
+            padding-top: 10px;
+           
+           }
+        }
+    
+    }
+
+    //Index-nueva coleccion
+
+    main{
+
+        section{
+            
+            h1{
+                padding: $paddingEstandar;
+                font-size: 45px;
+                background-color: nth($colores-principales,2);
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                margin-block-end: 15px;
+            }
+
+        }
+
+        div{
+            h1{
+            padding: $paddingEstandar;
+            font-size: 45px;
+            background-color: nth($colores-principales,2);
+            background-position: bottom-center;
+            display: flex;
+            justify-content: center;
+            margin-block-end: 15px;
+            }
+
+            form #cambioFormulario{
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                font-size: 20px;
+                color: bisque;
+                background-color: black;
+                margin-top: 2%;
+                padding: 2%;
+            }
+
+        }
+
+
+    }
+
+    //Index-Espacio del video
+    
+    section{
+        h2{
+            padding: 30px;
+            margin-top: 15px;
+            margin-block-end: 10px;
+            font-size: 25px;
+            background-color: lightslategray;
+            background-position: bottom-center;
+            display: flex;
+            justify-content: center;
+        
+        
+        }
+        
+    
+    }
+
+    //Contacto-Espacio formulario
+
+    main{
+        div .cambiosFormulario{
+            h1{
+            padding: $paddingEstandar;
+            font-size: 45px;
+            background-color: gray;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            margin-block-end: 15px;
+            }
+
+            form #cambioFormulario{//
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                font-size: 20px;
+                color: bisque;
+                background-color: black;
+                margin-top: 2%;
+                padding: 2%;
+            }
+
+        }
+    }
+
+
+    //Espacio footer
+
+    footer{
+        background-color: nth($colores-principales, 2);
+        height: 40px;
+        padding: $paddingEstandar+10;
+        margin-top: 15px;
+
+        div h3{
+            padding: 20px;
+            font-size: 20px;
+
+        }
+
+        
+    }
+
+    //Espacio formato Desktop
+
+    @media screen and (min-width: 760px){
+
+        header{
+        background-image: url(https://img.freepik.com/foto-gratis/textura-oscura-acuarela_125540-769.jpg?t=st=1651614348~exp=1651614948~hmac=9ee9069597969ab0827fefddebb55a3e38025b978cb96c959efd72eb6e019a23&w=1060);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: $porcentajeEstandar;
+        height: $porcentajeEstandar; 
+        border: 5px nth($colores-principales,4);
+        border-width: 5px;
+        border-color: nth($colores-principales,2);
+        border-style: groove;
+        margin-block-end: 10px;
+        padding: $paddingEstandar;
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        }
+
+    
+    
+    
+    
+    
+    
+    }
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
